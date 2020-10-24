@@ -5,11 +5,9 @@ import ("fmt"
 )
 
 func main(){
-
 	fmt.Printf("max int32: %d\n", math.MaxInt32)
 	fmt.Printf("min int32: %d\n", math.MinInt32)
 	fmt.Printf("Reverse value is %d.", reverse(1534236469))
-	
 }
 func reverse(x int) int {
 	r, min,max := 0, math.MinInt32, math.MaxInt32
