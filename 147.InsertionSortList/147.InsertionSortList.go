@@ -33,7 +33,7 @@ func insertionSortList(head *ListNode) *ListNode {
 			var currCurr, curPrev *ListNode = head, nil
 			for currCurr != curr {
 				if (*currCurr).Val > (*curr).Val {
-					if curPrev == nil { //change head also
+					if curPrev == nil {
 						head = curr
 					} else {
 						(*curPrev).Next = curr
